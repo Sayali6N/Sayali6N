@@ -1,0 +1,333 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2670568600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginStepDefination.beforeRun()"
+            }
+          }
+        ],
+        "line": 24,
+        "name": "1 User should be able to login with valid credentials",
+        "description": "",
+        "id": "techfios-login-functionality-validation;1-user-should-be-able-to-login-with-valid-credentials;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 661380500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginStepDefination.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1294511300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User is on Techfios login page",
+            "match": {
+              "location": "LoginStepDefination.User_is_on_Techfios_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2124477400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User enters username as \"demo@techfios.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "demo@techfios.com",
+                  "offset": 25
+                }
+              ],
+              "location": "LoginStepDefination.User_enters_username_as(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2092338800,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User enters password as \"abc123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "abc123",
+                  "offset": 25
+                }
+              ],
+              "location": "LoginStepDefination.user_enters_password_as(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3536528700,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User clicks on Signin Button",
+            "match": {
+              "location": "LoginStepDefination.user_clicks_on_Signin_Button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 232611900,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User should land on Dashboard page",
+            "match": {
+              "location": "LoginStepDefination.user_should_land_on_Dashboard_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2080862100,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User clicks on Bank and Cash",
+            "match": {
+              "location": "LoginStepDefination.user_clicks_on_Bank_and_Cash()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2721961100,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User clicks on New Account",
+            "match": {
+              "location": "LoginStepDefination.user_clicks_on_New_Account()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2153568500,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User enters AccountTitle as \"TF new account\" in accounts page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "TF new account",
+                  "offset": 29
+                }
+              ],
+              "location": "LoginStepDefination.user_enters_in_accounts_page(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2110710500,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User enters Description as \"New account created\" in accounts page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "New account created",
+                  "offset": 28
+                }
+              ],
+              "location": "LoginStepDefination.user_enters_Description_as_in_accounts_page(String)"
+            },
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2112701600,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User enters InitialBalance as \"$63434\" in accounts page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "$63434",
+                  "offset": 31
+                }
+              ],
+              "location": "LoginStepDefination.user_enters_InitialBalance_as_in_accounts_page(String)"
+            },
+            "matchedColumns": [
+              4
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2128490400,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User enters AccountNumber as\"231414\" in accounts page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "231414",
+                  "offset": 29
+                }
+              ],
+              "location": "LoginStepDefination.user_enters_AccountNumber_as_in_accounts_page(String)"
+            },
+            "matchedColumns": [
+              5
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2113847000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "User enters ContactPerson as\"Benjaman\" in accounts page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Benjaman",
+                  "offset": 29
+                }
+              ],
+              "location": "LoginStepDefination.user_enters_ContactPerson_as_in_accounts_page(String)"
+            },
+            "matchedColumns": [
+              6
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2152985200,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "User enters PhoneNumber as\"37483483646\" in accounts page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "37483483646",
+                  "offset": 27
+                }
+              ],
+              "location": "LoginStepDefination.user_enters_PhoneNumber_as_in_accounts_page(String)"
+            },
+            "matchedColumns": [
+              7
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2240734300,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "User enters BankingURL\"https://secure.bankofamerica.com/login/sign-in/signOnV2Screen.go\" in accounts page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://secure.bankofamerica.com/login/sign-in/signOnV2Screen.go",
+                  "offset": 23
+                }
+              ],
+              "location": "LoginStepDefination.user_enters_BankingURL_in_accounts_page(String)"
+            },
+            "matchedColumns": [
+              8
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3251605300,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "User clicks on Submit Button",
+            "match": {
+              "location": "LoginStepDefination.user_clicks_on_Submit_Button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 261468700,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "User should be able to validate account created successfully",
+            "match": {
+              "location": "LoginStepDefination.user_should_be_able_to_validate_account_created_successfully()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@Login"
+          },
+          {
+            "line": 4,
+            "name": "@Scenario1"
+          }
+        ]
+      }
+    ],
+    "name": "Techfios Login Functionality Validation",
+    "description": "",
+    "id": "techfios-login-functionality-validation",
+    "keyword": "Feature",
+    "uri": "src/test/java/features/TF_Login.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@Login"
+      }
+    ]
+  }
+]
